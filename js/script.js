@@ -4,8 +4,8 @@ function somma(nom, cogn) {
     return nomeCognome;
 }
 
-var nomi = ["Giulio", "Fabio"];
-var cognomi = ["Marzullotti", "Spaghettani", "Luciani", "Frangella", "Frattani"];
+var nomi = ["a", "b"];
+var cognomi = ["1", "2","3","4", "5"];
 var listaInvitati = "";
 
 
@@ -15,17 +15,6 @@ for(var i=0; i < nomi.length; i++){
                 listaInvitati += "<li>"+ nomeCognome +"</li>";
                 console.log(nomeCognome);
             }
-        }
-
-// for(var i = 0 ; i < cognomi.length; i++){
-//     somma(nomi[0], cognomi[i]);
-//     listaInvitati += "<li>"+ nomeCognome +"</li>";
-//     console.log(nomeCognome);
-// }
-// for(var i = 0 ; i < cognomi.length; i++){
-//     somma(nomi[1], cognomi[i]);
-//     listaInvitati += "<li>"+ nomeCognome +"</li>";
-//     console.log(nomeCognome);
-//}
+ }
 
 document.getElementById("lista").innerHTML = listaInvitati; 
