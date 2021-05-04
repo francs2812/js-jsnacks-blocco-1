@@ -10,8 +10,9 @@ var listaInvitati = "";
 
 
 for(var i=0; i < nomi.length; i++){
+    console.log("i" + i);
     for(var i2 = 0 ; i2 < cognomi.length; i2++){
-                somma(nomi[i2], cognomi[i2]);
+                somma(nomi[i], cognomi[i2]);
                 listaInvitati += "<li>"+ nomeCognome +"</li>";
                 console.log(nomeCognome);
             }
